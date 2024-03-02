@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+.container{
+  width: 100vw;
+  min-height: 100vh;
+  background: #ced8ff;
+  transition: 0.5s;
+}
+.container.dark{
+  background: #222;
+}
